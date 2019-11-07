@@ -2,10 +2,11 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   name: quote-frontend
+  namespace: insurance-quote
 spec:
   # Add fields here
   version: 1.0.0
-  applicationImage: docker.io/henrynash/quote-front
+  applicationImage: docker-registry.default.svc:5000/insurance-quote/quote-frontend:v1
   stack: nodejs-express
   service:
     type: NodePort
