@@ -32,4 +32,4 @@ spec:
   createKnativeService: false
   env:
   - name: BACKEND_URL
-    value: http://quote-backend-i2.henrycluster3-5290c8c8e5797924dc1ad5d1b85b37c0-0001.eu-de.containers.appdomain.cloud/quote
+    value: quote-backend-insurance-quote.henrycluster6-5290c8c8e5797924dc1ad5d1b85b37c0-0001.eu-gb.containers.appdomain.cloud
