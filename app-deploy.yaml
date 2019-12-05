@@ -7,15 +7,15 @@ metadata:
     build-date: 2019-10-29T20:35:20.404230
     commit.image.appsody.dev/author: Henry Nash <henry.nash@uk.ibm.com>
     commit.image.appsody.dev/committer: Henry Nash <henry.nash@uk.ibm.com>
-    commit.image.appsody.dev/date: Mon Nov 25 13:42:02 2019 +0000
-    commit.image.appsody.dev/message: t2
+    commit.image.appsody.dev/date: Wed Nov 27 23:35:26 2019 +0000
+    commit.image.appsody.dev/message: test change
     description: This image contains the Kabanero development stack for the Nodejs
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-27T22:32:58Z"
+    image.opencontainers.org/created: "2019-12-04T21:33:09Z"
     image.opencontainers.org/documentation: https://github.com/henrynash/quote-frontend
-    image.opencontainers.org/revision: 07d01da148204e6b7acabad755140ba6d1637734-modified
+    image.opencontainers.org/revision: 0b4fa84b098830b65ad6fe323cfab7a05b1b1ea7
     image.opencontainers.org/source: https://github.com/henrynash/quote-frontend/tree/master
     image.opencontainers.org/url: https://github.com/henrynash/quote-frontend
     k8s.io/description: Node.js 10 available as container is a base platform for building
@@ -39,8 +39,8 @@ metadata:
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/configured: kabanero/nodejs-express:0.2
-    stack.appsody.dev/created: 2019-11-25T13:19:23+0000
-    stack.appsody.dev/revision: 6f8c13fac90188f9e38184dd2d7cfb064679a890
+    stack.appsody.dev/created: 2019-12-04T17:23:44+0000
+    stack.appsody.dev/revision: 7ad65bd9ec95dc9a39fb430a4f56ef63e9026d7f
     stack.appsody.dev/tag: kabanero/nodejs-express:0.2.8
     summary: Image for Kabanero Node.js Express development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-10/images/1-54
